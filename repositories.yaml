@@ -1,0 +1,10 @@
+destination: &dest svc
+repositories:
+  micro-frontends: []
+  micro-services:
+    - name: dotnet-svc-order
+      repo: git@github.com:eliodevbr/dotnet-svc-order.git
+      dest: *dest
+    - name: dotnet-svc-weather
+      repo: git@github.com:eliodevbr/dotnet-svc-weather.git
+      dest: *dest
